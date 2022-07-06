@@ -62,6 +62,7 @@ convert gpt
 - [x] Set power plan to high performance
 - [x] Create D: 
 - [x] Plug in ETH & run windows updates
+- [x] Update windows store applications
 - [x] Reboot
 
 ### WSL 2
