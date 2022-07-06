@@ -1,6 +1,6 @@
 # **Windows 11 Installation Guide**
 
-**Windows 11 requires a TPM and secure boot enabled** (*This can be bypassed at install if desired*)
+**Windows 11 requires a TPM and secure boot enabled**[^1]
 
 <img src="https://i.pcmag.com/imagery/reviews/00xBy0JjVybodfIwWxeGCkZ-1.fit_scale.size_760x427.v1628697239.png" width="500" height="300">
 
@@ -40,7 +40,7 @@ convert gpt
 * Accept EULA
 * Choose "**Custom: Install Windows only (advanced)**
   * Choose **Drive 0 Unallocated Space** & choose "New"
-  * Enter **205824**[^1] for a 200GB C: Drive
+  * Enter **205824**[^2] for a 200GB C: Drive
   * Click "Apply" & "OK"
   * Choose "Next"
 * Choose "Sign-in options"
@@ -88,7 +88,7 @@ winget install -e --id Mozilla.Firefox;winget install -e --id Malwarebytes.Malwa
 1. **Battle.net** https://www.blizzard.com/en-us/apps/battle.net/desktop
 1. **Sysinternals** https://docs.microsoft.com/en-us/sysinternals/downloads/
 1. **Madvr** http://madvr.com/
-1. **MsiAfterburner**[^2] https://www.msi.com/Landing/afterburner/graphics-cards 
+1. **MsiAfterburner**[^3] https://www.msi.com/Landing/afterburner/graphics-cards 
 1. **Samsung Magician** https://semiconductor.samsung.com/consumer-storage/magician/
 1. **Razer Synapse** https://www.razer.com/synapse-3
 1. **VMware Remote Console** https://customerconnect.vmware.com/en/downloads/details?downloadGroup=VMRC1201&productId=876
@@ -109,6 +109,6 @@ winget install -e --id Mozilla.Firefox;winget install -e --id Malwarebytes.Malwa
 1. **Better Discord** https://betterdiscord.app/
 
 
-
-[^1]: The formula to determine the size is *TB in MB x 1.048576 + 4096*  **OR** *GB in MB x 1.024 + 1024*
-[^2]: GPU Overclock (1080ti) **Core +125 | Mem + 500**
+[^1]: This can be bypassed through tools like Rufus or through registry edits during install
+[^2]: The formula to determine the size is *TB in MB x 1.048576 + 4096*  **OR** *GB in MB x 1.024 + 1024*
+[^3]: GPU Overclock (1080ti) **Core +125 | Mem +500**
