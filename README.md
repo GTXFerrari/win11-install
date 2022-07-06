@@ -35,17 +35,17 @@ convert gpt
 ```
 
 * Choose **Install now**
-* Enter product key or choose "I don't have a product key"
+* Enter product key or choose **I don't have a product key**
 * Choose Version **Pro**
 * Accept EULA
-* Choose "**Custom: Install Windows only (advanced)**
-  * Choose **Drive 0 Unallocated Space** & choose "New"
+* Choose **Custom: Install Windows only (advanced)**
+  * Choose **Drive 0 Unallocated Space** & choose **New**
   * Enter **205824**[^2] for a 200GB C: Drive
-  * Click "Apply" & "OK"
-  * Choose "Next"
-* Choose "Sign-in options"
-  * Choose "Offline account"
-  * Choose "Skip for now"
+  * Click **Apply** & **OK**
+  * Choose **Next**
+* Choose **Sign-in options**
+  * Choose **Offline account**
+  * Choose **Skip for now**
   * Enter Credentials
   * Turn off all privacy settings
 
@@ -60,7 +60,6 @@ convert gpt
 - [x] Install motherboard drivers + GPU drivers
 - [x] Turn off "Pointer Precision" in windows mouse settings
 - [x] Set power plan to high performance
-- [x] Change PC to desired name
 - [x] Create D: 
 - [x] Plug in ETH & run windows updates
 - [x] Reboot
